@@ -12,6 +12,7 @@ if [ "$selected" = "Hord" ]
 then
 	fastshard hord
 	curl -s https://raw.githubusercontent.com/FastShard/Discord/main/hord/custom.css -o ~/.config/BetterDiscord/data/stable/custom.css
+	curl -s https://raw.githubusercontent.com/FastShard/Switcher/main/binary/themechanger.sh -o ~/.config/bspwm/bin/themechanger.sh
 	bspc wm -r
 	exit
 fi
@@ -19,6 +20,7 @@ if [ "$selected" = "Lotus" ]
 then
     	fastshard lotus
 	curl -s https://raw.githubusercontent.com/FastShard/Discord/main/lotus/custom.css -o ~/.config/BetterDiscord/data/stable/custom.css
+	curl -s https://raw.githubusercontent.com/FastShard/Switcher/main/binary/themechanger.sh -o ~/.config/bspwm/bin/themechanger.sh
 	bspc wm -r
 	exit
 fi
@@ -26,6 +28,7 @@ if [ "$selected" = "Catppuccin" ]
 then
    	fastshard catppuccin
 	curl -s https://raw.githubusercontent.com/FastShard/Discord/main/cappuccin/custom.css -o ~/.config/BetterDiscord/data/stable/custom.css
+	curl -s https://raw.githubusercontent.com/FastShard/Switcher/main/binary/themechanger.sh -o ~/.config/bspwm/bin/themechanger.sh
 	bspc wm -r
 	exit
 fi
@@ -33,6 +36,7 @@ if [ "$selected" = "Mountain" ]
 then
    	fastshard mountain
 	curl -s https://raw.githubusercontent.com/FastShard/Discord/main/mountain/custom.css -o ~/.config/BetterDiscord/data/stable/custom.css
+	curl -s https://raw.githubusercontent.com/FastShard/Switcher/main/binary/themechanger.sh -o ~/.config/bspwm/bin/themechanger.sh
 	bspc wm -r
 	exit
 fi
@@ -41,7 +45,7 @@ if [ "$selected" = "Minimal" ]
 then
    	fastshard minimal
 	curl -s https://raw.githubusercontent.com/FastShard/Discord/main/minimal/custom.css -o ~/.config/BetterDiscord/data/stable/custom.css
-	killall bspborder
+	curl -s https://raw.githubusercontent.com/FastShard/Switcher/main/binary/themechanger.sh -o ~/.config/bspwm/bin/themechanger.sh
 	bspc wm -r
 	exit
 fi
